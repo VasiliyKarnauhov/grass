@@ -1,5 +1,9 @@
+# Игнорировать все файлы .log
+*.log
+
+# Игнорировать папку node_modules
 node_modules/
-/test-results/
-/playwright-report/
-/blob-report/
-/playwright/.cache/
+
+# Игнорировать все файлы в директории "tests" кроме "API.spec.js"
+tests/*
+!tests/API.spec.js
