@@ -6,7 +6,7 @@ playwright-report/
 
 # Игнорировать все файлы в папке tests, кроме API.spec.js
 tests/*
-!tests/API.spec.js
+!tests/*
 
 # Игнорировать все файлы .log
 *.log
