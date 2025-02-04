@@ -4,6 +4,9 @@ test-results/
 # Игнорировать файлы в папке playwright-report
 playwright-report/
 
+tests/*
+!tests/cargo.spec.js
+
 # Игнорировать все файлы .log
 *.log
 
